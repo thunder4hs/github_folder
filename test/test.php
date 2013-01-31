@@ -21,7 +21,7 @@ else
 		
 		//X軸目盛の設定
 		if($show == 0){
-			$graph_title = '年間表示';
+			$graph_title = '年間表示test';
 			
 			$today = strtotime( "today" );
 			$kiten = strtotime("-". $page . " year" , $today);
